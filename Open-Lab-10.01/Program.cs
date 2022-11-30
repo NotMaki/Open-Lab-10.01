@@ -6,7 +6,10 @@ namespace Open_Lab_10._01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Book LOTR = new Book("the Lord of the Rings", 9250);
+            Console.WriteLine(LOTR.title);
+            //  LOTR.pages is private
         }
     }
 }
